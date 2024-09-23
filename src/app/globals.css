@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: spartan;
+    src: url(../font/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(../font/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: meri;
+    src: url(../font/Merriweather-Italic.ttf);
+}
+
+@media(max-width:550px){
+    .bg-logo{
+        width:420px;
+    }
+    .name{
+        font-size: 62px;
+    }
+   
+}
+
+
+@media(max-width:515px){
+    .bg-logo{
+        width:380px;
+    }
+    .name{
+        font-size: 55px;
+        
+    }
+}
+@media(max-width:440px){
+    .bg-logo{
+        width:330px;
+    }
+    .name{
+        font-size: 48px; 
+    }
+    ul{
+        margin-top: -30px;
+    }
+    
+}
+
+@media(min-width:400px){
+    .social-icons{
+        width: 20px;
+    }
+
+}
+@media(min-width:440px){
+    .social-icons{
+        width: 22px;
+    }
+}
+
+@media(max-width:400px){
+    .bg-logo{
+        width: 280px;
+    }
+    .name{
+            font-size: 40px;
+        }
+    .name-container{
+        margin-left: 38px;
+    }
+}
+
+@media(max-width:360px){
+    .bg-logo{
+        width: 210px;
+    }
+    .name{
+            font-size: 50px;
+            line-height: 50px;
+            display: block;
+        }
+    .name-container{
+        margin-left: 32px;
+    }
+    .position{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:260px){
+    .bg-logo{
+        width: 180px;
+    }
+    .name{
+            font-size: 40px;
+            line-height: 40px;
+            display: block;
+        }
+    .name-container{
+        margin-left: 30px;
+    }
+    ul{
+        margin-top: -40px;
+    }
+    .position{
+        font-size: 13px;
+        margin-bottom: 14px;
+    }
+    .about{
+        font-size: 12px;
+    }
+}
+
+
+#wrapper-canvas canvas {
+    max-width : 100%;
+    max-height : 100%;
+}
